@@ -1,0 +1,55 @@
+*{
+    margin:0;
+}
+
+/* navのcss */
+nav{
+    position: fixed;
+    height: 100vh;
+    width:10%;
+    background-color: #d3d3d3;
+}
+nav img {
+    bottom: 0px;
+}
+
+nav ul{
+    list-style: none;
+    bottom:0px
+}
+
+nav img{
+    width:90%;
+}
+
+
+/* headerのcss */
+.cube{
+    height:300px;
+    width:300px;
+    float: left;
+}
+.cube6,.cube11,.cube16,.cube21{
+    clear: both;
+}
+
+.cube1,.cube5,.cube8,.cube11,.cube15,.cube18,.cube21{
+    background-color: #fa5d36;
+}
+.cube2,.cube9,.cube12,.cube19,.cube22{
+    background-color: #FFFFFF;
+}
+
+.cube3,.cube14,.cube17,.cube25{
+    background-color: #63B1ff;
+}
+.cube4,.cube6,.cube13,.cube21,.cube24{
+    background-color: #FFDF3F;
+}
+
+.cube7,.cube10,.cube16,.cube20,.cube23{
+    background-color: #58E4A8;
+}
+#header-wrap{
+    transform: rotate(-45deg);
+}
