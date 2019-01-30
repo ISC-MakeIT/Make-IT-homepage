@@ -1,9 +1,11 @@
 header{
     width:100vw;
-    height:auto;
+    height:100vh;
 }
 
 header img{
     width:100vw;
-    height:auto;
+    height:100vh;
+    position: relative;
+    z-index: 7;
 }
