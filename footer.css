@@ -1,0 +1,49 @@
+footer{
+    width:100vw;
+    height:100vh;
+    background-color: #FAFAFA;
+}
+
+#footer_icon{
+    width:30vw;
+    height:21vh;
+    position: relative;
+    left:40vw;
+    top:38vh;
+    text-align: center;
+}
+
+#footer_icon img{
+    width:100%;
+}
+
+.footer_circle{
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.small{
+    border:5px solid white;
+    width:35vw;
+    height:35vw;
+    position: absolute;
+    left:37.5vw;
+}
+
+.middle{
+    border: 10px solid white;
+    width: 40vw;
+    height: 40vw;
+    position: relative;
+    left: 35vw;
+    bottom: 41px;
+}
+
+.large{
+    border: 5px solid white;
+    width: 50vw;
+    height: 50vw;
+    position: relative;
+    bottom: 92vh;;
+    left: 30vw;
+}
