@@ -1,20 +1,19 @@
 #project{
-    /* background-color: bisque; */
-    width:100%;
-    position: relative;
+    width: 100%;
+
 }
 
+
 .project_list{
-    width:60vw;
+    width:100%;
     display: flex;
     flex-wrap: wrap;
-    position: relative;
-    left:40vw;
 }
 
 .project_cube{
-    width:20vw;
-    height:20vw;    
+    width:calc(100%/3);
+    height:20vw;
+    background-color: #FFDF3F;
 }
 
 .center_cube{
@@ -22,10 +21,35 @@
     display: block;
     color: #FFFFFF;
 }
+
 .center_cube h3{
-    margin-top:44%;
+    margin-top:40%;
 }
 
 .f_colle{
-    background-color: rgba(0,0,0,0.6);
+    background-image: url("../img/f_college.png");
+    background-size: cover;
+}
+
+.f_colle:hover{
+    background: rgba(0,0,0,0.6);
+}
+
+.sentakun{
+    background-image: url("../img/sentakun.png");
+    background-size: cover;
+}
+
+.sentakun:hover::before{
+    content: "「一般社団法人　神奈川情報サービス産業協会　学生ITコンテスト2018」に洗濯タグ読み取りwebアプリ「せんたくん」を出品しました。";
+}
+
+.sentakun:hover::after{
+    content:"2018.7~2018.11";
+    content:"学生ITコンテスト　せんたくん";
+}
+
+.recipippi{
+    background-image: url("../img/recipippi.png");
+    background-size: cover;
 }

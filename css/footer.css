@@ -1,16 +1,21 @@
 footer{
-    width:100vw;
+    width:88vw;
     height:100vh;
     background-color: #FAFAFA;
+    margin-left:12vw;
+    position: relative;
+    /* text-align: center; */
+    overflow: hidden;
 }
+
 
 #footer_icon{
     width:30vw;
-    height:21vh;
-    position: relative;
-    left:40vw;
-    top:38vh;
+    height:20vh;
+    position: absolute;
+    top:40vh; 
     text-align: center;
+    left:29vw;
 }
 
 #footer_icon img{
@@ -20,30 +25,29 @@ footer{
 .footer_circle{
     background-color: transparent;
     border-radius: 50%;
+    position: absolute;
 }
 
 .small{
     border:5px solid white;
     width:35vw;
     height:35vw;
-    position: absolute;
-    left:37.5vw;
+    left:25vw;
+    top:16vh;
 }
 
 .middle{
     border: 10px solid white;
     width: 40vw;
     height: 40vw;
-    position: relative;
-    left: 35vw;
-    bottom: 41px;
+    left:22vw;
+    top:10vh;
 }
 
 .large{
     border: 5px solid white;
-    width: 50vw;
-    height: 50vw;
-    position: relative;
-    bottom: 92vh;;
-    left: 30vw;
+    width: 60vw;
+    height: 60vw;   
+    left:12vw;
+    top:-10vh;
 }

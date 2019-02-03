@@ -1,14 +1,7 @@
 header{
-    width:100vw;
+    width:88vw;
     height:100vh;
-    background-image: url("../img/Make_IT_background_wrap_1.png");
+    margin-left: 12vw;
+    background-image: url("../img/main_back_image.png");
     background-size: cover;
 }
-
-/* header img{
-    width:100vw;
-    height:100vh;
-    position: relative;
-    z-index: 7;
-} */
-

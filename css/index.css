@@ -2,12 +2,8 @@
     margin:0;
 }
 
-body{
-    flex-direction: column;
-}
-
 nav{
-    width:10vw;
+    width:12vw;
     height: 100vh;
     position: fixed;
     background-color: #FFFFFF;
@@ -30,5 +26,6 @@ nav ul{
 }
 nav li{
     margin : 0 0 10px 12px;
+    font-size:1.2vw;
 }
 
