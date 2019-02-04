@@ -27,9 +27,10 @@ main{
 
 .phrase{
     position: absolute;
-    left: 14vw;
+    left: 13vw;
     z-index: 99;
     color:#FFFFFF;
+    text-align: left !important;
 }
 
 .phrase span{

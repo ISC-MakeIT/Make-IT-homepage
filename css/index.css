@@ -2,6 +2,11 @@
     margin:0;
 }
 
+body{
+    font-family: 'Futura','Reem kufi','ヒラギノ角ゴシック','Hiragino Sans','メイリオ', 'Meiryo',sans-serif;
+}
+
+
 nav{
     width:12vw;
     height: 100vh;
@@ -29,3 +34,12 @@ nav li{
     font-size:1.2vw;
 }
 
+.about_nav{
+    width:30%;
+    background-color: #FA5D36;
+    transition-duration: 2s;
+}
+
+.about_nav:hover{
+    width:100%;
+}
