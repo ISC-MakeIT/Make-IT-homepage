@@ -33,6 +33,10 @@ main{
     text-align: left !important;
 }
 
+.phrase h1{
+    font-size:2em;
+}
+
 .phrase span{
     display: block;
 }
