@@ -1,5 +1,8 @@
 *{
     margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
 }
 
 body{
@@ -13,33 +16,81 @@ nav{
     position: fixed;
     background-color: #FFFFFF;
     z-index: 100;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
-nav img{
+/* nav img{
     width : 90%;
     position: absolute;
     bottom: 200px;
     margin-left: 10px;
     margin-bottom: 20px;
-}
+} */
 
 nav ul{
+    width: 100%;
     list-style: none;
-    position: absolute;
-    bottom: 40px;
     padding:0;
+    margin-bottom : 2vh;
 }
+
+.nav_img {
+    width: 90%;
+}
+
 nav li{
-    margin : 0 0 10px 12px;
-    font-size:1.2vw;
+    margin : 0 ;
+    height: 4vh;
+    font-size:1.5vw;
+    position: relative;    
+    text-align: center;
+    line-height: 4vh;
+    transition-duration: 1s;    
 }
 
-.about_nav{
-    width:30%;
-    background-color: #FA5D36;
-    transition-duration: 2s;
+ul#main_nav li::before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    left: 0;    
+    transition-duration: 1s;    
+    z-index: -1;
 }
 
-.about_nav:hover{
+ul#main_nav li:hover::before{
+    width:90%;
+    transition-duration: 1s;    
+}
+
+.about_nav::before {
+    background-color: #FA5D36;   
+}
+
+.member_nav::before{
+    background-color: #63B1FF;
+}
+
+.project_nav::before{
+    background-color: #FFDF3F;
+}
+
+.contact_nav::before{
+    background-color: #58E4A8;
+}
+
+
+ul#main_nav  :hover{
+    display: block;
+    color: #FFFFFF;
+    transition-duration: 1s;
+}
+
+/* .about_nav:hover{
     width:100%;
-}
+} */
