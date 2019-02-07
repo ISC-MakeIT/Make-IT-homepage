@@ -1,15 +1,15 @@
-#project {
+#product {
     width: 100%;
 }
 
 
-.project_list {
+.product_list {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.project_cube {
+.product_cube {
     width: calc(100%/3);
     height: 20vw;
     background-color: #FFDF3F;
@@ -27,21 +27,49 @@
 
 
 
-.project_detail{
+.product_detail{
     width: 100%;
     height: 100%;
     transition-duration:1s;
+    position: relative;
 }
 
-.project_detail p, .project_detail h4{
+.product_detail h4{
+    display: block;
+    position: absolute;
+    bottom : 0;
+}
+
+.product_detail h4,.product_detail p{
+    transition-duration:1s;
+}
+
+.little_cube{
+    display: none;
+    height:20%;
+    width:20%;
+    background-color: #FA5D36;
+    position: absolute;
+    bottom: 0;
+    transition-duration:1s;
+}
+
+.product_cube :hover .little_cube{
+    display: block;
+    transition-duration:1s;
+    opacity: 1;
+}
+
+.product_detail p, .product_detail h4{
     opacity: 0;
+    text-align: left;
 }
 
-.project_detail:hover{
+.product_detail:hover{
     background: rgba(0,0,0,0.6);    
 }
 
-.project_detail:hover p,.project_detail:hover h4 {
+.product_detail:hover p,.product_detail:hover h4 {
     opacity: 1;
 }
 
@@ -60,3 +88,6 @@
     background-size: cover;
 }
 
+.product_cube span{
+    display: block;
+}

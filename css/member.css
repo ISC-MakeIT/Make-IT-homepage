@@ -15,31 +15,50 @@
 
 
 .member_list{
-    width:53vw;
+    width:80%;
     display: flex;
     /* flex-direction: row; */
     flex-wrap: wrap;
     position: relative;
-    /* padding: 0 40px 50px 40px; */
+    /* padding: 0 40px 80px 40px; */
+    /* margin-right:auto;*/
+    margin-left: auto;
     margin: auto;
     padding-bottom: 100px;
 }
 
 .person{
-    height : 270px;
-    width : 180px;
-    /* background-color: bisque; */
+    height : 25%;
+    width : 25%;
     text-align: center;
-    /* margin : 10px 10px 20px 10px; */
-    margin:auto;
+    padding: 10px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    /* background-color: bisque; */
+    /* margin : 10px 0px 20px 0px; */
+    /* margin:auto; */
 }
 
 .person img{
-    width :100%;
+    width : 8vw;
+    height: 8vw;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 
 .member_department{
+    font-size: 10px;
+}
+
+.hobby{
     font-size: 12px;
+}
+
+.member_job, .member_name{
+    letter-spacing: 2px;
+}
+
+.person span {
+    display: block;
 }

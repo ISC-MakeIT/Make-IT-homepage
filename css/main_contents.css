@@ -35,6 +35,7 @@ main{
 
 .phrase h1{
     font-size:2em;
+    letter-spacing: 3px;
 }
 
 .phrase span{
