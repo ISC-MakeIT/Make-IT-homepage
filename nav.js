@@ -1,38 +1,4 @@
-// (function () {
-//     let intoroDistance = $("#intoro").offset();
-//     let memberDistance = $("member").offset();
-//     let productDistance = $("product").offset();
-//     let contactDistance = $("#contact").offset();
-//     let footerDistance = $("#footer").offset();
-//     navCheck = () => {
-//         let currentPosition = $(window).scrollTop();
-//         if (footerDistance.top > currentPosition >= contactDistance.top) {
-//             $(".contact_nav").css("width", "90%");
-//         } else if (contactDistance.top > currentPosition >= productDistance.top) {
-//             $(".product_nav").css("width", "90%");
-//         } else if (productDistance.top > currentPosition >= memberDistance.top) {
-//             $(".member_nav").css("width", "90%");
-//         } else if (memberDistance.top > currentPosition >= intoroDistance.top){
-//             $(".intoro_nav").css("width","90%");      
-//         };
-//     }
-// }());
-
-// navCheck = () => {
-//     let currentPosition = $(window).scrollTop();
-//     if (footerDistance > currentPosition >= contactDistance) {
-//         $(".contact_nav").css("width", "90%");
-//     } else if (contactDistance > currentPosition >= productDistance) {
-//         $(".product_nav").css("width", "90%");
-//     } else if (productDistance > currentPosition >= memberDistance) {
-//         $(".member_nav").css("width", "90%");
-//     } else if (memberDistance > currentPosition >= intoroDistance){
-//         $(".intoro_nav").css("width","90%");      
-//     };
-// }
-
-
-$(window).scroll(function () {
+  $(window).scroll(function () {
     var currentPosition = $(window).scrollTop();
     // console.log(currentPosition);
     let introDistance = $("#intro").offset();
@@ -50,7 +16,8 @@ $(window).scroll(function () {
         $(" #main_nav > a:eq(1)").css("color", "");
         $(".about_nav").css("background-color", "");
         $(" #main_nav > a:eq(0)").css("color", "");
-
+        //scroll bar
+        $(".scroll").css("display","none");
 
     } else if (footerDistance.top -20 > currentPosition && currentPosition > contactDistance.top - 20) {
         // $(".contact_nav").toggleClass(".hoverd");
@@ -62,6 +29,10 @@ $(window).scroll(function () {
         $(" #main_nav > a:eq(1)").css("color", "");
         $(".about_nav").css("background-color", "");
         $(" #main_nav > a:eq(0)").css("color", "");
+        //scroll bar
+        $(".header_scroll").css("display","none");
+        $(".main_scroll").css("display","inline");
+        $(".main_scroll").attr("href","#footer");
 
     } else if (contactDistance.top - 20 > currentPosition && currentPosition > productDistance.top - 20) {
         $(".contact_nav").css("background-color", "");
@@ -72,6 +43,10 @@ $(window).scroll(function () {
         $(" #main_nav > a:eq(1)").css("color", "");
         $(".about_nav").css("background-color", "");
         $(" #main_nav > a:eq(0)").css("color", "");
+        //scroll bar
+        $(".header_scroll").css("display","none");
+        $(".main_scroll").css("display","inline");
+        $(".main_scroll").attr("href","#contact");
 
     } else if (productDistance.top - 20 > currentPosition && currentPosition > memberDistance.top - 20) {
         $(".contact_nav").css("background-color", "");
@@ -82,6 +57,10 @@ $(window).scroll(function () {
         $(" #main_nav > a:eq(1)").css("color", "#FFFFFF");
         $(".about_nav").css("background-color", "");
         $(" #main_nav > a:eq(0)").css("color", "");
+        //scroll bar
+        $(".header_scroll").css("display","none");
+        $(".main_scroll").css("display","inline");
+        $(".main_scroll").attr("href","#product");
 
     } else if (memberDistance.top - 20 > currentPosition && currentPosition > introDistance.top - 20) {
         $(".contact_nav").css("background-color", "");
@@ -92,6 +71,10 @@ $(window).scroll(function () {
         $(" #main_nav > a:eq(1)").css("color", "");
         $(".about_nav").css("background-color", "#FA5D36");
         $(" #main_nav > a:eq(0)").css("color", "#FFFFFF");
+        //scroll bar
+        $(".header_scroll").css("display","none");
+        $(".main_scroll").css("display","inline");
+        $(".main_scroll").attr("href","#member");
 
     } else if (introDistance.top - 20 > currentPosition) {
         $(".contact_nav").css("background-color", "");
@@ -102,6 +85,9 @@ $(window).scroll(function () {
         $(" #main_nav > a:eq(1)").css("color", "");
         $(".about_nav").css("background-color", "");
         $(" #main_nav > a:eq(0)").css("color", "");
+        //scroll bar
+        $(".header_scroll").css("display","inline");
+        $(".main_scroll").css("display","none");
     };
 });
 

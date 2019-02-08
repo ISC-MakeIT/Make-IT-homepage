@@ -21,7 +21,7 @@
     color: #FFFFFF;
 }
 
-.center_cube h3 {
+.center_cube h2 {
     margin-top: 40%;
 }
 
@@ -37,8 +37,11 @@
 .product_detail h4{
     display: block;
     position: absolute;
-    bottom : 0;
+    bottom : 2%;
+    margin-left : 5%;
+    line-height: 1.5em;
 }
+
 
 .product_detail h4,.product_detail p{
     transition-duration:1s;

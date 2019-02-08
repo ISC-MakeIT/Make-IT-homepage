@@ -13,3 +13,9 @@
 #intro h2 span{
     display: block;
 }
+
+#intro p{
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: 700;
+}

@@ -26,3 +26,5 @@ $(window).on('resize',function(){
         $(window).scrollTop(currentScrl);
     }
 });
+
+

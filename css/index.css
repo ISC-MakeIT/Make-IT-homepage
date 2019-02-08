@@ -5,8 +5,12 @@
     list-style: none;
 }
 
+.phrase{
+    font-family: 'Reem Kufi', sans-serif !important;
+}
+
 body {
-    font-family: 'Futura', 'Reem kufi', 'ヒラギノ角ゴシック', 'Hiragino Sans', 'メイリオ', 'Meiryo', sans-serif;
+    font-family: 'Arial','YuGothic','Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', 'Meiryo','ＭＳ ゴシック',sans-serif;
 }
 
 
@@ -109,10 +113,18 @@ ul#main_nav :hover {
 .scroll {
     position: fixed;
     bottom: 3vh;
-    left: 50vw;
     color: #FFFFFF;
     z-index: 99;
     text-align: center;
+}
+
+.header_scroll{
+    left: 56vw;
+}
+
+.main_scroll{
+    left: 67.5vw;
+    display: none;
 }
 
 .scroll_bar {
