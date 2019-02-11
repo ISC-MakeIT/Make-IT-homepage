@@ -23,6 +23,10 @@
 
 .center_cube h2 {
     margin-top: 40%;
+    font-size: 2vw;
+}
+.center_cube  span{
+    font-size: 1.5vw;
 }
 
 
@@ -66,6 +70,7 @@
 .product_detail p, .product_detail h4{
     opacity: 0;
     text-align: left;
+    font-size : 1vw;
 }
 
 .product_detail:hover{
@@ -77,17 +82,17 @@
 }
 
 .f_colle {
-    background-image: url("../img/f_college.png");
+    background-image: url("../img/product/f_college.png");
     background-size: cover;
 }
 
 .sentakun {
-    background-image: url("../img/sentakun.png");
+    background-image: url("../img/product/sentakun.png");
     background-size: cover;
 }
 
 .recipippi {
-    background-image: url("../img/recipippi.png");
+    background-image: url("../img/product/recipippi.png");
     background-size: cover;
 }
 

@@ -7,6 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Make IT</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/jquery.scrollify.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/nav.js"></script>
 </head>
 
 <body>
@@ -56,13 +60,13 @@
                         <span>「つくれる」を、つくる</span>
                     </h1>
                 </div>
-                <div class="main_circle"></div>
+                <div class="main_circle intro_circle"></div>
                 <h2>
                     <span>ワクワクしながら</span>
                     <span>技術を学んで</span>
                     <span>結果にコミットする</span>
                 </h2>
-                <p>
+                <!-- <p>
                     ウッホー！<br>
                     （やっほー！）<br>
                     <br>
@@ -77,6 +81,18 @@
                     <br>
                     ホッホウホウホホウホウホホホウホ<br>
                     （キャンパスノートいっぱいに書いたなぁ）<br>
+                </p> -->
+                <p>
+                    誰かのために価値を届ける<br>
+                    その結果を追い求めチームで技術を学び<br>
+                    そしてその原点にはいつもワクワクが<br>
+                    <br>
+                    自分の足と手と頭で考えベストな選択をする<br>
+                    その過程こそがチームを結束させ<br>
+                    そしてその結果が誰かに大きな価値を<br>
+                    <br>
+                    プログラミングサークルMake ITは<br>
+                    そんな価値観を持った仲間と共に横浜で明るく自由に活動しています
                 </p>
 
 
@@ -89,13 +105,15 @@
                         <span>私たちについて</span>
                     </h1>
                 </div>
-                <div class="main_circle"></div>
-                <h2>メンバー紹介
-                    <span>MEMBER</span>
-                </h2>
+                <div class="main_circle">
+                    <h2>メンバー紹介
+                        <span>MEMBER</span>
+                    </h2>
+
+                </div>
                 <div class="member_list">
                     <section class="person">
-                        <img src="img/ymzk-jp.jpg" alt="">
+                        <img src="img/person/ymzk-jp.jpg" alt="">
                         <h3 class="member_name">ymzk-jp</h3>
                         <span class="member_department">情報セキュリティ学科　4年</span>
                         <span class="hobby">Javascript / 地方創生</span>
@@ -103,14 +121,15 @@
                     </section>
 
                     <section class="person">
-                        <img src="img/sample.jpg" alt="">
+                        <img src="img/person/koba.png" alt="">
                         <h3 class="member_name">wh1tecat</h3>
                         <span class="member_department">情報セキュリティ学科　3年</span>
+                        <span class="hobby">Isomorphic(Universal) JavaScript / Node.js / Gadget</span>
                         <span class="member_job">ENGINEER</span>
                     </section>
 
                     <section class="person">
-                        <img src="img/shimarin.jpg" alt="">
+                        <img src="img/person/shimarin.jpg" alt="">
                         <h3 class="member_name">fumihumi</h3>
                         <span class="member_department">情報セキュリティ学科　3年</span>
                         <span class="hobby">Ruby / react / ゆるキャン△ </span>
@@ -118,14 +137,15 @@
                     </section>
 
                     <section class="person">
-                        <img src="img/sample.jpg" alt="">
-                        <h3 class="member_name">ちくわ大明神</h3>
+                        <img src="img/person/takahasi.jpg" alt="">
+                        <h3 class="member_name">haduki1208</h3>
                         <span class="member_department">情報セキュリティ学科　3年</span>
+                        <span class="hobby">Javascript / React</span>
                         <span class="member_job">ENGINEER</span>
                     </section>
 
                     <section class="person">
-                        <img src="img/jun.png" alt="">
+                        <img src="img/person/jun.png" alt="">
                         <h3 class="member_name">ジュン</h3>
                         <span class="member_department">情報セキュリティ学科　1年</span>
                         <span class="hobby">Javascript / web</span>
@@ -133,7 +153,7 @@
                     </section>
 
                     <section class="person">
-                        <img src="img/moya.png" alt="">
+                        <img src="img/person/moya.png" alt="">
                         <h3 class="member_name">moya</h3>
                         <span class="member_department">情報セキュリティ学科　1年</span>
                         <span class="hobby">Webデザイン フロントエンド</span>
@@ -141,21 +161,22 @@
                     </section>
 
                     <section class="person">
-                        <img src="img/sample.jpg" alt="">
+                        <img src="img/person/ittiy.png" alt="">
                         <h3 class="member_name">いっちー</h3>
                         <span class="member_department">情報セキュリティ学科　1年</span>
+                        <span class="hobby">Javascript / ServerSide</span>
                         <span class="member_job">ENGINEER</span>
                     </section>
 
                     <section class="person">
-                        <img src="img/sample.jpg" alt="">
+                        <img src="img/person/sample.jpg" alt="">
                         <h3 class="member_name">end0</h3>
                         <span class="member_department">情報セキュリティ学科　1年</span>
                         <span class="member_job">ENGINEER</span>
                     </section>
 
                     <section class="person">
-                        <img src="img/sato3.jpg" alt="">
+                        <img src="img/person/sato3.jpg" alt="">
                         <h3 class="member_name">sato</h3>
                         <span class="member_department">情報セキュリティ学科　1年</span>
                         <span class="hobby">Security</span>
@@ -163,7 +184,7 @@
                     </section>
 
                     <section class="person">
-                        <img src="img/neko.jpg" alt="">
+                        <img src="img/person/neko.jpg" alt="">
                         <h3 class="member_name">shimomu</h3>
                         <span class="member_department">先端ITシステム科　1年</span>
                         <span class="hobby">Python / ラーメン屋巡り</span>
@@ -171,15 +192,15 @@
                     </section>
 
                     <section class="person">
-                        <img src="img/sample2.jpg" alt="">
+                        <img src="img/person/tuna2.jpg" alt="">
                         <h3 class="member_name">ツナ</h3>
                         <span class="member_department">先端ITシステム科　1年</span>
-                        <span class="hobby">Web / PHP / Javascript / Linux</span>
+                        <span class="hobby">PHP / Javascript / Linux</span>
                         <span class="member_job">ENGINEER</span>
                     </section>
 
                     <section class="person">
-                        <img src="img/kimu.jpg" alt="">
+                        <img src="img/person/kimu.jpg" alt="">
                         <h3 class="member_name">Tea-Kimu</h3>
                         <span class="member_department">情報処理科　1年</span>
                         <span class="hobby">C++ / UE4</span>
@@ -187,11 +208,20 @@
                     </section>
 
                     <section class="person">
-                        <img src="img/kato.png" alt="">
+                        <img src="img/person/kato.png" alt="">
                         <h3 class="member_name">Y.K</h3>
                         <span class="member_department">web技術科　1年</span>
                         <span class="hobby">HTML5 / CSS3 / DESIGN</span>
                         <span class="member_job">DESIGNER</span>
+                    </section>
+
+                    <section class="person">
+                        <img src="img/MakeITicon.png" alt="">
+                        <!-- <h3 class="member_name">Y.K</h3>
+                        <span class="member_department">web技術科　1年</span>
+                        <span class="hobby">HTML5 / CSS3 / DESIGN</span>
+                        <span class="member_job">DESIGNER</span> -->
+                        <h3>and you...</h3>
                     </section>
                 </div>
 
@@ -256,17 +286,19 @@
                 </div>
             </div>
 
-            <div id="contact" class="box">
+            <div id="contact" class="box">  
 
                 <div class="phrase">
                     <h1>Hoge Fuga Hoge Fuga.
                         <span>お問い合わせ</span>
                     </h1>
                 </div>
-                <div class="main_circle"></div>
-                <h2>コンタクト
-                    <span>CONTACT</span>
-                </h2>
+                <div class="main_circle">
+                    <h2>コンタクト
+                        <span>CONTACT</span>
+                    </h2>
+
+                </div>
                 <form>
                     <input type="text" name="name" id="" value="お名前"><br>
                     <input type="text" name="matter" id="" 　value="ご用件"><br>
@@ -292,10 +324,6 @@
         </div>
     </footer>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="jquery.scrollify.js"></script>
-    <script src="scroll.js"></script>
-    <script src="nav.js"></script>
 </body>
 
 </html>

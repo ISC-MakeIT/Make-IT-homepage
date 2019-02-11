@@ -8,9 +8,15 @@
 #contact h2{
     position: relative;
     text-align: center;
-    top:-150px;
+    top:25%;
+    font-size: 2vw;
 }
 
 #contact h2 span{
     display: block;
+    font-size: 1vw;
+}
+
+form{
+    border-radius : 10%;
 }
