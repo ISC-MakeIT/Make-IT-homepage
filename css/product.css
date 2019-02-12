@@ -46,6 +46,9 @@
     line-height: 1.5em;
 }
 
+.product_detail p{
+    padding : 5%;
+}
 
 .product_detail h4,.product_detail p{
     transition-duration:1s;
