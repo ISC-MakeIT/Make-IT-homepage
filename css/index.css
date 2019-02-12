@@ -26,6 +26,7 @@ nav {
     align-items: flex-start;
     flex-direction: column;
     letter-spacing: 1px;
+    font-family: 'Reem Kufi', sans-serif !important;
 }
 
 /* nav img{
