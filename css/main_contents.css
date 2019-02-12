@@ -3,6 +3,7 @@ main{
     margin-left:12vw;
     display: flex;
     color:#FFFFFF;
+    font-family: 'Reem Kufi', sans-serif !important;
 }
 
 #main_contents{
@@ -64,4 +65,9 @@ main{
     border-radius: 0 0 90px 90px ;
     -moz-border-radius: 0 0 180px 180px ;
     -webkit-border-radius: 0 0 180px 180px ;
+}
+
+.main_circle h2 span{
+    letter-spacing: 0.3vw;
+    font-family: 'Reem Kufi', sans-serif !important;
 }
