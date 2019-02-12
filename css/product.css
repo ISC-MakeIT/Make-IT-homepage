@@ -96,6 +96,11 @@
     background-size: cover;
 }
 
+.rackle{
+    background-image: url("../img/product/rackle.png");
+    background-size: cover;
+}
+
 .product_cube span{
     display: block;
 }
