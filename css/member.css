@@ -61,9 +61,11 @@
 }
 
 .member_job, .member_name{
-    letter-spacing: 5px;
+    letter-spacing: 2px;
+    margin : 8px 0;
 }
 
 .person span {
     display: block;
+    letter-spacing : 1px;
 }

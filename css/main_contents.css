@@ -60,11 +60,11 @@ main{
 }    
 
 .intro_circle{
-    height : 8vw ;
-    width : 16vw ;
+    height : 12vw ;
+    width : 25vw ;
     border-radius: 0 0 90px 90px ;
-    -moz-border-radius: 0 0 180px 180px ;
-    -webkit-border-radius: 0 0 180px 180px ;
+    /*-moz-border-radius: 0 0 180px 180px ; */
+    -webkit-border-radius: 0 0 200px 200px ;
 }
 
 .main_circle h2 span{
