@@ -143,3 +143,34 @@ a {
     transition-duration: 0.5s;
 }
 
+#frame-top{
+    width : 88vw;
+    height : 10px;
+    position: absolute;
+    top : 0;
+    left : 12vw;
+    position: fixed;
+    z-index: 999;
+    background-color: #FFFFFF;
+}
+
+#frame-right{
+    width : 10px;
+    height : 100vh;
+    position: absolute;
+    right : 0;
+    position: fixed;
+    z-index: 999;
+    background-color: #FFFFFF;
+}
+
+#frame-bottom{
+    width : 88vw;
+    height : 10px;
+    position: absolute;
+    bottom : 0;
+    left : 12vw;
+    position: fixed;
+    z-index: 999;
+    background-color: #FFFFFF;
+}

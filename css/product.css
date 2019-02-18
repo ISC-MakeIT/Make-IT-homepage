@@ -22,11 +22,14 @@
 }
 
 .center_cube h2 {
-    margin-top: 40%;
+    margin-top: 50%;
     font-size: 2vw;
+    line-height: 20px;;
 }
 .center_cube  span{
-    font-size: 1.5vw;
+    font-size: 1.2vw;
+    line-height: 0.5vw;
+    letter-spacing: 1px;
 }
 
 
@@ -104,6 +107,7 @@
     background-size: cover;
 }
 
-/* .product_cube span{
+.product_cube span{
     display: block;
-} */
+    
+}

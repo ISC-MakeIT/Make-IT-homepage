@@ -17,8 +17,11 @@
 
 #intro h2 span{
     display: block;
+    margin-right : auto;
+    margin-left : auto;
     font-size: 4.1vh;
     line-height : 160%;
+    width : 325px;
 }
 
 #intro p{
@@ -27,3 +30,20 @@
     font-weight: 700;
     line-height : 190%;
 }
+
+
+.intro_sentence{
+    margin-right : auto;
+    margin-left : auto;
+    width : 325px;
+}
+
+.intro_sentence span{
+    display: block;
+    font-size: 2.1vh;
+    /* font-weight: 700; */
+    line-height : 190%;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+

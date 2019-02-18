@@ -43,14 +43,20 @@ footer {
 }
 
 #footer_icon{
-    width : 70%;
+    width : 80%;
     height : 50%;
     position: absolute;
-    left : 15%;
+    left : 12%;
     top : 35%;
     text-align: center;
 }
 
 #footer_icon img{
     width : 100%;
+    margin-bottom : 20px;
+}
+
+#footer_icon span{
+    font-weight: 700;
+    font-size : 20px;
 }
