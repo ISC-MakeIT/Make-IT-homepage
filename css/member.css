@@ -53,7 +53,7 @@
 
 
 .member_department{
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .hobby{
@@ -62,7 +62,7 @@
 
 .member_job, .member_name{
     letter-spacing: 2px;
-    margin : 8px 0;
+    /* margin : 8px 0; */
 }
 
 .person span {
