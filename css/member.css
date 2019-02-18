@@ -53,16 +53,19 @@
 
 
 .member_department{
-    font-size: 12px;
+    font-size: 14px;
+    font-family: "" !important;
 }
 
 .hobby{
-    font-size: 12px;
+    font-size: 14px;
+    font-family: "" !important;
 }
 
 .member_job, .member_name{
     letter-spacing: 2px;
     margin : 6px 0;
+    /* font-family: "" !important; */
 }
 
 .member_job{
