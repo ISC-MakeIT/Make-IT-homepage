@@ -61,6 +61,10 @@
     font-family: "" !important;
 }
 
+.remove{
+    text-decoration: none;
+}
+
 .member_job, .member_name{
     letter-spacing: 2px;
     margin : 6px 0;
@@ -79,4 +83,8 @@
 .person span {
     display: block;
     letter-spacing : 1px;
+}
+
+.person:last-child .member_name{
+    font-size: 1.5vw;
 }

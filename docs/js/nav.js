@@ -92,3 +92,10 @@
     };
 });
 
+$(function(){
+    $('#nav_toggle').click(function(){
+                $("header").toggleClass('open');
+        $("header nav").fadeToggle(500);
+            });
+
+});
