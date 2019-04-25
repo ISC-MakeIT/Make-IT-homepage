@@ -5,3 +5,11 @@ header{
     background-image: url("../img/main_back_image.png");
     background-size: cover;
 }
+
+.triangle{
+    display: none;
+}
+
+.inner, .clearfix{
+    display: none;
+}

@@ -174,3 +174,7 @@ a {
     z-index: 999;
     background-color: #FFFFFF;
 }
+
+#frame-left{
+    display: none;
+}

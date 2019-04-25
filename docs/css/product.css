@@ -2,6 +2,9 @@
     width: 100%;
 }
 
+.project_circle{
+    display: none;
+}
 
 .product_list {
     width: 100%;
