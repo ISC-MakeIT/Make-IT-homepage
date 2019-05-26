@@ -1,6 +1,5 @@
   $(window).scroll(function () {
-    var currentPosition = $(window).scrollTop();
-    // console.log(currentPosition);
+    let currentPosition = $(window).scrollTop();
     let introDistance = $("#intro").offset();
     let memberDistance = $("#member").offset();
     let productDistance = $("#product").offset();
@@ -20,7 +19,6 @@
         $(".scroll").css("display","none");
 
     } else if (footerDistance.top -20 > currentPosition && currentPosition > contactDistance.top - 100) {
-        // $(".contact_nav").toggleClass(".hoverd");
         $(".contact_nav").css("background-color", "#58E4A8");
         $(" #main_nav > a:eq(3)").css("color", "#FFFFFF");
         $(".product_nav").css("background-color", "");
@@ -75,7 +73,7 @@
         $(".header_scroll").css("display","none");
         $(".main_scroll").css("display","inline");
         $(".main_scroll").attr("href","#member");
-        
+
     } else if (introDistance.top - 20 > currentPosition) {
         $(".contact_nav").css("background-color", "");
         $(" #main_nav > a:eq(3)").css("color", "");
@@ -88,14 +86,12 @@
         //scroll bar
         $(".header_scroll").css("display","inline");
         $(".main_scroll").css("display","none");
-
-    };
+    }
 });
 
 $(function(){
     $('#nav_toggle').click(function(){
-                $("header").toggleClass('open');
+        $("header").toggleClass('open');
         $("header nav").fadeToggle(500);
-            });
-
+    });
 });
