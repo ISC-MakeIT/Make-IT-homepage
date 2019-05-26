@@ -1,7 +1,6 @@
 #member{
     width: 100%;
     background-color: #63B1FF;
-
 }
 
 #member h2{
@@ -10,20 +9,18 @@
     top:25%;
     font-size: 2vw;
 }
+
 #member h2 span{
     display: block;
     font-size: 1vw;
 }
 
 
-.member_list{
+.member_list {
     width:80%;
     display: flex;
-    /* flex-direction: row; */
     flex-wrap: wrap;
     position: relative;
-    /* padding: 0 40px 80px 40px; */
-    /* margin-right:auto;*/
     margin-left: auto;
     margin: auto;
     padding-bottom: 100px;
@@ -31,16 +28,13 @@
 }
 
 
-.person{
+.person {
     height : 25%;
-    width : calc(100%/3);
+    width : calc(100% / 3);
     text-align: center;
     padding: 5px;
     margin-bottom: 10px;
     line-height: 1.5em;
-    /* background-color: bisque; */
-    /* margin : 10px 0px 20px 0px; */
-    /* margin:auto; */
 }
 
 .person img{
@@ -68,7 +62,6 @@
 .member_job, .member_name{
     letter-spacing: 2px;
     margin : 6px 0;
-    /* font-family: "" !important; */
 }
 
 .member_name{
