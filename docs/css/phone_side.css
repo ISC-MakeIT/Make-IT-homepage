@@ -154,7 +154,7 @@ main{
     -moz-border-radius: 0 0 360px 360px;
     -webkit-border-radius: 0 0 360px 360px;
     border-top: none;
-}    
+}
 
 .intro_circle{
     height : 12.5vw ;
@@ -298,7 +298,7 @@ main{
     font-size: 4.2vmin;
     font-family: "" !important;
     margin: 0.5vh 0;
-    
+
 }
 
 .hobby{
@@ -597,7 +597,7 @@ header nav {
 header nav ul{
 	display: flex;
 	align-items: center;
-	
+
 }
 
 header nav ul li a{
@@ -608,7 +608,7 @@ header nav ul li a{
 #nav_toggle{
 	display: none;
 }
- 
+
 @media screen and (max-width:960px){
 	/*メニュー部分*/
 	header nav{
@@ -642,7 +642,7 @@ header nav ul li a{
     }
 
 	header nav ul li a{
-		display: block; 
+		display: block;
         color: black;
         text-align: center;
         font-family: 'Reem Kufi', sans-serif !important
@@ -696,7 +696,7 @@ header nav ul li a{
     }
 }
 
-@media screen and (max-width:960px){	
+@media screen and (max-width:960px){
 	/*開閉ボタン*/
 	#nav_toggle{
 		display: block;
@@ -719,9 +719,9 @@ header nav ul li a{
 		left: 0;
 		-webkit-transition: 0.5s ease-in-out;
 		-moz-transition: 0.5s ease-in-out;
-		transition: 0.5s ease-in-out;	
+		transition: 0.5s ease-in-out;
     }
-    
+
     #nav_toggle span:nth-child(4){
         width: 100%;
         background-color: transparent;
@@ -736,7 +736,7 @@ header nav ul li a{
 	#nav_toggle span:nth-child(3){
 		top:24px;
 	}
-    
+
     #nav_toggle span:nth-child(4){
         top: 32px;
         color: white;

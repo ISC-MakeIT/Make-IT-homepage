@@ -1,5 +1,4 @@
 main{
-    /* width:88vw; */
     margin-left:12vw;
     display: flex;
     color:#FFFFFF;
@@ -58,13 +57,12 @@ main{
     -moz-border-radius: 0 0 360px 360px;
     -webkit-border-radius: 0 0 360px 360px;
     border-top: none;
-}    
+}
 
 .intro_circle{
     height : 12.5vw ;
     width : 25vw ;
     border-radius: 0 0 90px 90px ;
-    /*-moz-border-radius: 0 0 180px 180px ; */
     -webkit-border-radius: 0 0 25vw 25vw ;
 }
 

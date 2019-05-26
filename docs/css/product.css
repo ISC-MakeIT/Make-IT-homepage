@@ -83,7 +83,7 @@
 }
 
 .product_detail:hover{
-    background: rgba(0,0,0,0.6);    
+    background: rgba(0,0,0,0.6);
 }
 
 .product_detail:hover p,.product_detail:hover h4 {
@@ -112,5 +112,5 @@
 
 .product_cube span{
     display: block;
-    
+
 }
