@@ -1,4 +1,5 @@
   $(window).scroll(function () {
+    // TODO refactor
     let currentPosition = $(window).scrollTop();
     let introDistance = $("#intro").offset();
     let memberDistance = $("#member").offset();
