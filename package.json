@@ -21,6 +21,10 @@
   },
   "homepage": "https://github.com/ISC-MakeIT/Make-IT-homepage#readme",
   "devDependencies": {
+    "css-loader": "^2.1.1",
+    "file-loader": "^4.0.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "style-loader": "^0.23.1",
     "webpack": "^4.33.0",
     "webpack-cli": "^3.3.3",
     "webpack-dev-server": "^3.7.1"
